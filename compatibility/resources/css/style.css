@@ -1,0 +1,13 @@
+.icon:before, .menu.padded ul li a.sel:before, .texticon:before, .datewrapper:before, .timewrapper:before, .element:before, #help:before, .secure:before, .insecure:before, .go:after, .menubtn:after, .required:after, [data-icon]:before, [data-icon-after]:after {
+    font-family: 'HelveticaNeue', sans-serif !important;
+    font-size: 13px !important;
+    text-transform: capitalize;
+}
+
+#header h2 a:before, ul.icons li a:before, .btn[data-icon="refresh"]::before, .icon.search:before, .icon.insecure:before {
+    display: none;
+}
+
+ul.icons li a {
+    padding-top: 0px;
+}
