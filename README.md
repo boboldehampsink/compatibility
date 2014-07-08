@@ -1,0 +1,4 @@
+compatibility
+=============
+
+Craft Compatibility Plugin
