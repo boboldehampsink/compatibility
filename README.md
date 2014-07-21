@@ -9,7 +9,9 @@ Features:
  
 Todo:
  - Import jQuery 1x over the current 2x
-
+ 
+Important:
+The plugin's folder should be named "compatibility"
 
 Changelog
 =================
