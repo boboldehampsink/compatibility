@@ -3,6 +3,7 @@ namespace Craft;
 
 class CompatibilityPlugin extends BasePlugin
 {
+
     function getName()
     {
         return Craft::t('Browser Compatibility');
@@ -23,7 +24,8 @@ class CompatibilityPlugin extends BasePlugin
         return 'http://www.itmundi.nl';
     }
     
-    function init() {
+    function init() 
+    {
     
         if(craft()->request->isCpRequest()) {
                         
@@ -42,4 +44,5 @@ class CompatibilityPlugin extends BasePlugin
         }
         
     }
+    
 }
