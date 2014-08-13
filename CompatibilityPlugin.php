@@ -11,7 +11,7 @@ class CompatibilityPlugin extends BasePlugin
 
     function getVersion()
     {
-        return '1.0.1';
+        return '1.0.2';
     }
 
     function getDeveloper()
@@ -30,7 +30,7 @@ class CompatibilityPlugin extends BasePlugin
         if(craft()->request->isCpRequest()) {
                         
             // Check if IE7 - 9
-            if(preg_match('/(?i)msie [7-9]/',$_SERVER['HTTP_USER_AGENT'])) {
+            if(isset($_SERVER['HTTP_USER_AGENT']) && preg_match('/(?i)msie [7-9]/', $_SERVER['HTTP_USER_AGENT'])) {
             
                 // Extend History API
                 craft()->templates->includeFootHtml('<script type="text/javascript" src="'.UrlHelper::getResourceUrl('compatibility/js/native.history.js').'"></script>');
