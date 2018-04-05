@@ -20,7 +20,7 @@ Changelog
 ### 1.0.2 ###
  - Fix for User Agent not always being available (for example via command line)
 
-### 1.0. 1###
+### 1.0.1 ###
  - Fixed the path to the resource url's
  
 ### 1.0 ###
